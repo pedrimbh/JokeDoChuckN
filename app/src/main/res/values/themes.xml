@@ -12,4 +12,10 @@
     <style name="Theme.JokeDoChuckN" parent="Base.Theme.JokeDoChuckN" />
     <style name="Theme.JokeDoChuckN.AppbarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
     <style name="Theme.JokeDoChuckN.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/blue_700</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/logo</item>
+        <item name="windowSplashScreenAnimationDuration">200</item>
+        <item name="postSplashScreenTheme">@style/Theme.JokeDoChuckN</item>
+    </style>
 </resources>
